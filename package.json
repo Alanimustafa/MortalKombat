@@ -1,0 +1,15 @@
+{
+  "name": "mortal-kombat",
+  "version": "1.0.0",
+  "description": "Mortal Kombat - Recreation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./JavaScript/homePage.js"
+  },
+  "author": "Mustafa Alani",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
