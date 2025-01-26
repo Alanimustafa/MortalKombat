@@ -1,10 +1,23 @@
+body {
+    background-color: black;
+}
 
 
+/* Home Page Background Video */
+#mkBackground {
+    justify-self: center;
+    width: 100%;
+    box-shadow: gray 1px 1px 15px;
+    object-fit: cover;
+    z-index: -1;
+}
 
 /* Home Page | Navegation Bar | TOP */
 .homePageMainNavBar {
     background-color: yellow;
     border: red solid 2px;
-    width: 98%;
-    height: 5%;;
+    width: 50%;
+    height: 4vh;
+    position: relative;
+    z-index: 1;
 }
