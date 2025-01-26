@@ -19,4 +19,13 @@ document.body.appendChild(mkBackground);
 // Home Page | Navegation Bar | TOP
 const homePageMainNavBar = document.createElement('div');
 homePageMainNavBar.classList.add('homePageMainNavBar');
-window.document.body.appendChild(homePageMainNavBar);
+document.body.appendChild(homePageMainNavBar);
+// // Home Page | Navegation Bar | TOP | Left | Global NAV
+const leftGlobalLinks = document.createElement('nav');
+leftGlobalLinks.setAttribute('class', 'leftGlobalLinks');
+homePageMainNavBar.appendChild(leftGlobalLinks);
+// // Home Page | Navegation Bar | TOP | Right | Relative and Socail Media
+const rightRelativeandSocialMedia = document.createElement('nav');
+rightRelativeandSocialMedia.setAttribute('class', 'rightRelativeandSocialMedia');
+homePageMainNavBar.appendChild(rightRelativeandSocialMedia);
+//# sourceMappingURL=homePage.js.map
