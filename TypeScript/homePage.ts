@@ -25,12 +25,31 @@ const homePageMainNavBar = document.createElement('div');
 homePageMainNavBar.classList.add('homePageMainNavBar');
 document.body.appendChild(homePageMainNavBar);
 
-// // Home Page | Navegation Bar | TOP | Left | Global NAV
+// Home Page | Navegation Bar | TOP | Left | Global NAV
 const leftGlobalLinks = document.createElement('nav');
 leftGlobalLinks.setAttribute('class', 'leftGlobalLinks');
 homePageMainNavBar.appendChild(leftGlobalLinks);
 
-// // Home Page | Navegation Bar | TOP | Right | Relative and Socail Media
+
+    // Home Page | Navegation Bar | TOP | Left | Global NAV | Glob-Language
+    const globLanguage = document.createElement('select');
+    globLanguage.setAttribute('class', 'globLanguage');
+    leftGlobalLinks.appendChild(globLanguage);
+
+        // Home Page | Navegation Bar | TOP | Left | Global NAV | Glob-Language | United States, Europe and UAE
+        const regionArray = ["United States", "Europe", "UAE"];
+
+        for (let index = 0; index < regionArray.length; index++) {
+            let theReigon = regionArray[index];
+            const globLanguageOption = document.createElement('option');
+            globLanguageOption.setAttribute('class','globLanguageOption');
+            globLanguageOption.textContent = theReigon;
+            globLanguage.appendChild(globLanguageOption);
+        }
+
+
+
+// Home Page | Navegation Bar | TOP | Right | Relative and Socail Media
 const rightRelativeandSocialMedia = document.createElement('nav');
 rightRelativeandSocialMedia.setAttribute('class', 'rightRelativeandSocialMedia');
 homePageMainNavBar.appendChild(rightRelativeandSocialMedia);

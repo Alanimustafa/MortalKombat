@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -34,6 +35,26 @@ body {
     margin-right: auto;
     flex-wrap: wrap;
 }
+
+.globLanguage{
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+option {
+    background-color: transparent;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+option:hover {
+    background-color: transparent;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
 
 /* Home Page | Navegation Bar | TOP | Right | Relative and Socail Media */
 .rightRelativeandSocialMedia {
