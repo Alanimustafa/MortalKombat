@@ -37,20 +37,19 @@ body {
 }
 
 .globLanguage{
-    background-color: transparent;
-    border: none;
+    background: transparent;
     color: black;
     font-family: 'Times New Roman', Times, serif;
 }
 
 option {
-    background-color: transparent;
-    color: red;
+    background: black;
+    color: wheat;
     font-family: 'Times New Roman', Times, serif;
 }
 
 option:hover {
-    background-color: transparent;
+    background: transparent;
     color: black;
     font-family: 'Times New Roman', Times, serif;
   }

@@ -29,7 +29,7 @@ const globLanguage = document.createElement('select');
 globLanguage.setAttribute('class', 'globLanguage');
 leftGlobalLinks.appendChild(globLanguage);
 // Home Page | Navegation Bar | TOP | Left | Global NAV | Glob-Language | United States, Europe and UAE
-const regionArray = ["United States", "Europe", "UAE"];
+const regionArray = ["United States", "Canada", "Europe", "UAE", "China"];
 for (let index = 0; index < regionArray.length; index++) {
     let theReigon = regionArray[index];
     const globLanguageOption = document.createElement('option');
